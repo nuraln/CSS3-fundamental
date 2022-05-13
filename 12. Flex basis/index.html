@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+   <style>
+       * {
+           box-sizing: border-box;
+       }
+       .container {
+           width: 800px;
+           border: 2px solid black;
+           margin: 0 auto;
+       }
+ 
+       .flex-column {
+           display: flex;
+           flex-direction: column;
+       }
+ 
+       .flex-row {
+           display: flex;
+           flex-direction: row;
+       }
+ 
+       .box {
+            flex-basis: 15%;
+           background-color: rgb(237, 100, 100);
+           border: 2px solid rgb(226, 205, 217);
+           padding: 40px;
+           text-align: center;
+           color: rgb(68, 6, 6);
+           font-size: 1.5em;
+       }
+   </style>
+</head>
+<body>
+<div class="container">
+   <div class="flex-column">
+       <div class="flex-row">
+           <div class="box">1</div>
+           <div class="box">2</div>
+           <div class="box">3</div>
+           <div class="box">4</div>
+       </div>
+       <div class="flex-row">
+           <div class="box">5</div>
+           <div class="box">6</div>
+           <div class="box">7</div>
+       </div>
+        <div class="flex-row">
+           <div class="box">8</div>
+           <div class="box">9</div>
+           <div class="box">10</div>
+           <div class="box">11</div>
+       </div>
+   </div>
+</div>
+</body>
+</html>

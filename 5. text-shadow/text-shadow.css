@@ -1,0 +1,13 @@
+/* di text shadow hanya ada 4 elemen
+x-offset
+y-offset
+blur
+color
+ */
+p {
+    font-size: 150px;
+    font-family: arial;
+    text-align: center;
+    text-shadow: 5px 5px 10px rgb(34, 56, 1);
+    color: rgb(15, 206, 196);
+}

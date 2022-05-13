@@ -1,0 +1,4 @@
+/* vendor prefix adalah sintakz khusus yg harus ditambahkan untuk beberapa 
+properti css3 agar tampak kompatibel disemua perangkat/browser */
+
+/* sintaks untuk setiap brosee berbeda */

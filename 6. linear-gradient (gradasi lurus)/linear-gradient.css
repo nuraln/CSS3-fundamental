@@ -1,0 +1,43 @@
+/* linear gradien bukan properti dari css 3, melainkan value untuk background image */
+/* MEMBERIKAN GRADASI WARNA SECARA LURUS */
+div {
+    width: 600px;
+    height: 300px;
+    margin: 5px auto;
+    background-color: crimson;
+    /* linear gradient -> properti backgroud image */
+                                    /* warna awal, warna akhir */
+    background-image: linear-gradient(salmon, rgb(211, 12, 95));
+}
+p {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 200px;
+    color: white;
+    font-weight: bold;
+
+    /* CARA 1 */
+    /* mengatur arah, 90deg -> menyamping dimulai dari kiri
+                      -90deg -> menyamping dimulai dari kanan
+                      45deg -> bayangan secara diagonal kanan atas
+                      -46deg -> bayangan secara diagonal dari kiri bawah */
+    
+    /* CARA 2 */
+    /* mengatur arah, (tak usah pake strip)
+                      to bottom
+                      to top
+                      to left -> dari kanan kekiri
+                      to right 
+                      to left top
+                      toleft bottom
+                      to right top
+                      to right bottom
+                      */
+    background-image: linear-gradient(90deg, teal, turquoise 50%, lightblue);
+
+/* COLOR STOP -> UNTUK MEMBERIKAN BOBOT WARNA YANG BERBEDA ()satu warna lebih banyak */
+/* menggunakan perserntase -> kasih nilai persentasenya sesudah warna */
+
+}

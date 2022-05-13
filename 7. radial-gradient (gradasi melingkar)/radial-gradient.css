@@ -1,0 +1,6 @@
+div{
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    background-image: radial-gradient(rgb(31, 199, 163), rgb(21, 163, 151), rgb(71, 127, 212) );
+}

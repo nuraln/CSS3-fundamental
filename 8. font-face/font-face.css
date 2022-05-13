@@ -1,0 +1,11 @@
+@font-face{
+    font-family: 'namaFontBaru';
+    src: url('lokasi/file/fontBaru.eot')
+}
+
+
+
+body {
+    color: black;
+    font-family: 'delaGothicOne';
+}

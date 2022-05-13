@@ -1,0 +1,33 @@
+/*perbedaan opacity dg rgba
+opacity memberi transparansi pada elemen, mempengaruhi elemen (div, atau anak2nya) yg didalamnya
+rgba memberi transparansi pada warna tdk mempengaruhi element didalamnya, krn hanya memberi transparan pada warnanya*/
+
+h1 {
+	background-color: rgb(43, 43, 143);
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 80px;
+	width: 1200px;
+	height: 200px;
+	text-align: center;
+	line-height: 200px;
+	margin-right: 0%;
+}
+body {
+	background-image: url(foto1.JPG);
+	background-size: cover;
+}
+.satu {
+	width: 600px;
+	height: 600px;
+	background-color: rgba(8, 0, 0, 0.6);
+}
+.dua {
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	background-color: salmon;
+	left: 550px;
+	bottom: -70px;
+	opacity: .7;
+}

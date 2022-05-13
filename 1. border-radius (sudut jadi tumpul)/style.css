@@ -1,0 +1,39 @@
+/*border radiuss*/
+.border-radius {
+	/* CARA 1, FOTO DI FILE CSS, MENGGUNAKAN PROPERTI BACKGROUND*/
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+/*	background-color: salmon;*/
+	line-height: 340px;
+	text-align: center;
+	/*masukkan gambar sebagai backgroud yaa
+	kalo gambarnya ditaruk di file html, didalam class keluar nnti gambarnya*/
+	background-image: url(foto1.JPG); 
+	/*gambar memenuhi lingkaran*/
+	background-size: cover;
+	color: white;
+}
+.blue { 
+	/*CARA 2, FOTO DI FILE CSS, BAGIAN FOTO YG KELUAR DARI FRAME SEMBUNYIKAN*/
+	width: 200px;
+	height: 200px;
+	border-radius: 50% 0 50% 0;
+/*	background-color: blue;*/
+	line-height: 200px;
+	text-align: center;
+	color: white;
+	font-height: bold;
+	font-size: 35px;
+	/*yg keluar dari frame sembunyikan*/
+	overflow: hidden;
+}
+.setengah-lingkaran {
+	width: 200px;
+	height: 100px;
+	border-radius: 50% 50% 0 0;
+	background-color: blue;
+	line-height: 200px;
+	text-align: center;
+	color: white;
+}

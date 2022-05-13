@@ -1,0 +1,21 @@
+body {
+	background-image: url(foto1.JPG);
+	background-size: cover;
+}
+.satu {
+	/*nilai transparan dari 0-1*/
+	opacity: 0.5;
+	width: 600px;
+	height: 600px;
+	background-color: black;
+}
+.dua {
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	background-color: salmon;
+	left: 550px;
+	bottom: -70px;
+	/*tdk bisa menghilangkan opacity element anak, jika induknya punya opacity*/
+	opacity: 1;
+}
